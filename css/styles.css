@@ -5,16 +5,12 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-}
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
+  font-weight: normal;
+  font-style: normal;
+  color: #212121;
 }
 .header-logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -27,18 +23,12 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.header-link:hover {
-  color: #2196f3;
-}
 .header-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-}
-.header-mail:hover {
-  color: #2196f3;
 }
 .header-tel {
   font-weight: 500;
@@ -47,10 +37,6 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.header-tel:hover {
-  color: #2196f3;
-}
-
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -80,17 +66,37 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.main-section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-section-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-section-text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 .footer-logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--acent-color);
 }
-.footer-list {
+.adress-section {
   font-family: Roboto;
   font-style: normal;
   font-size: 14px;
@@ -101,6 +107,38 @@ body {
 .footer-link {
   color: #757575;
 }
+.btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.project-section-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-section-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 .fff {
   color: #ffffff;
+}
+.hover-focus:focus,
+.hover-focus:hover {
+  color: var(--acent-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
