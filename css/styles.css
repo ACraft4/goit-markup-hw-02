@@ -16,6 +16,12 @@ body {
   line-height: 1.19;
   color: #2196f3;
 }
+.header-logo-color {
+  color: #212121;
+}
+.footer-logo-color {
+  color: #ffffff;
+}
 .header-link {
   font-weight: 500;
   font-size: 14px;
